@@ -1,0 +1,96 @@
+.navbar {
+    width: 75%;
+    height: 85px;
+    /*background-color: #ffcd39;*/
+    font-family: "Roboto-Regular";
+}
+.navbar img {
+    width: 10%;
+    height: 10%;
+}
+.navbar p {
+    color: rgb(238,77,45);
+}
+
+/*Sign Up*/
+.sign-up {
+    height: 90vh;
+}
+.form-sign-up {
+    width: 75%;
+    height: 80vh;
+    background-image: url("/img/EXJ7yPbUMAI_2ax.jpg");
+    font-family: "Roboto-Regular";
+}
+.form-sign-up input,
+.form-sign-up textarea {
+    outline: none;
+    border-color: rgb(238,77,45);
+}
+.form-sign-up input:focus,
+.form-sign-up textarea:focus {
+    outline: none;
+    box-shadow: rgb(238,77,45) 0px 2px 8px 0px;
+    border-color: rgb(238,77,45);
+}
+.form-sign-up .form-floating label {
+    color: rgb(108,117,133);
+}
+.button-sign-up {
+    width: 100%;
+    background-color: rgb(238,77,45);
+}
+.button-sign-up:hover,
+.button-sign-up:active,
+.button-sign-up:focus {
+    box-shadow: rgb(238,77,45) 0px 2px 8px 0px;
+    border-color: rgb(238,77,45);
+    background-color: rgb(238,77,45);
+}
+small span {
+    color: rgb(238,77,45);
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url('/fonts/Roboto-Regular.ttf');
+}
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .navbar img {
+        width: 28%;
+        height: 28%;
+    }
+    .form-sign-up .form-floating label {
+        font-size: 12px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar img {
+        width: 20%;
+        height: 20%;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar img {
+        width: 15%;
+        height: 15%;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,132 @@
+body {
+    font-family: "Roboto-Regular";
+}
+.section-one {
+    height: 100px;
+    background-color: rgb(252,89,49);
+}
+.section-two {
+    background-color: rgb(254,98,51);
+}
+.section-two .navbar .navbar-toggler,
+.section-two .navbar .navbar-toggler:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.section-two nav .collapse {
+    background-color: rgb(254,98,51);
+}
+.notifications a span {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    color: rgb(252,89,49);
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    margin-left: -10px;
+}
+.home-seller .recently-added .list-recently {
+    padding-bottom: 10px;
+}
+.home-seller .list-recently .item-sold {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.home-seller .add-data,
+.home-seller .search-data {
+    background-color: rgb(252,89,49);
+    color: white;
+}
+.home-seller .edit-data,
+.home-seller .delete-data {
+    background: none;
+    border: 2px solid rgb(212,208,207);
+}
+.status-order {
+    background-color: rgb(252,89,49);
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.borderless td, .borderless th {
+    border: none;
+}
+.block {
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0; right: 0;
+    bottom: 0;
+    background-color: rgba(246,246,246,.4);
+}
+.home-seller .block-two {
+    pointer-events: none;
+    cursor: none
+}
+.page-item.active .page-link {
+    border: none;
+    background-color: rgb(252,89,49) !important;
+}
+.page-item .page-link {
+    color: black;
+}
+.loading-update-note {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 1000vh;
+    background-color: rgba(0,0,0,.5);
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url('/fonts/Roboto-Regular.ttf');
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .image-product {
+        height: 200px;
+        overflow: hidden;
+        position: relative;
+    }
+    .image-product img {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .image-product-sold {
+        width: 20%;
+        height: 20%;
+    }
+}
